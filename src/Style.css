@@ -1,0 +1,120 @@
+
+/* Layout page css */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px ;
+    padding: 0px;
+    background-color: rgb(116, 39, 38);
+    border-bottom: 3px solid black;
+    
+}
+.navbar a{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 5px 3px 5px pink;
+}
+    
+
+/* Insertion page css */
+
+.form{
+    
+    height: 400px;
+    width: 400px;
+    border: 2px solid black ;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(4, 190, 44);
+    box-shadow: 5px 15px 10px yellowgreen;
+    
+}
+.inform{
+    padding: 10px;
+}
+.lab{
+    font-size: 20px;
+    font-weight: 600;
+    
+    color: black;
+}
+.lab input{
+    margin-left: 10px;
+    border: 2px solid rgb(254, 254, 254);
+    border-radius: 50px;
+    height: 20px;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+}
+.submitbtn button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 20px;
+    cursor: grabbing;
+   
+}
+
+/* display box */
+
+.displaybox{
+
+    border:2px solid green;
+    margin: 30px;
+    
+}
+.innerdisplaybox{
+    margin: 20px;
+}
+.innerdisplaybox tr th{
+    border: 1px solid black;
+   background-color: darkgrey;
+   font-size: 25px;
+   padding: 3px;
+
+}
+.innerdisplaybox tr td{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkslategray;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+/* search page */
+
+.searchtable{
+
+    margin: auto;
+    border: 2px solid black;
+}
+.searchtable tr td,th{
+    border:  1px solid black;
+    padding: 3px;
+    margin: 3px;
+}
+
+/* Edit page */
+
+.editbox
+{
+    margin-left: 50px;
+}
+.editbox h3
+{
+   margin: 0px;
+}
